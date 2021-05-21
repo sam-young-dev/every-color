@@ -1,0 +1,44 @@
+:root {
+  --background: white;
+  --darkest: #321;
+  --text: #543;
+  --lightest: white;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body * + * {
+  margin-top: 1rem;
+}
+
+html,
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  line-height: 1.45;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+body {
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+main {
+  background-color: var(--lightest);
+  max-width: 90vw;
+  margin: 5rem auto;
+      margin-top: 5rem;
+  border: 1px solid var(--darkest);
+  border-radius: .5rem;
+  padding: 1rem 2rem;
+  width: 570px;
+}
+
+h1 {
+  color: var(--darkest);
+}
