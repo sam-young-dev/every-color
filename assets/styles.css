@@ -28,6 +28,8 @@ body {
   padding: 2rem 0;
 }
 
+
+header,
 main {
   background-color: var(--lightest);
   max-width: 90vw;
@@ -37,6 +39,7 @@ main {
   border-radius: .5rem;
   padding: 1rem 2rem;
   width: 570px;
+  text-decoration: none;
 }
 
 h1 {
